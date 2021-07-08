@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.card{
+    width: 400px;
+    height: 200px;
+    padding: 1px 20px;
+    background: url('./Imagens/backgorund.png') no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+
+ h1{
+    font-weight: 100;
+    font-size: 27px;
+    font-family: 'Gill Sans MT';
+    color: #000000;
+ }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.instagram{
+    list-style-image: url("./Imagens/Insta.png");
+}
+.twitter{
+    list-style-image: url("./Imagens/Twitter.png");
+}
+.linkedin{
+    list-style-image: url("./Imagens/linkedin.png");
+}
+
+ul{
+    list-style-position: inside;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 500;
+    font-family: "Lucida Sans";
+} 
